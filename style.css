@@ -5,15 +5,17 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+
+  
 }
 .body {
   margin: 0px;
   padding: 0px;
 
+
   /* font-family: "Poppins", sans-serif; */
 }
-All__MAin__Section {
-  overflow: hidden;
+.All__MAin__Section {
   overflow-x: hidden;
 }
 .logo {
@@ -24,6 +26,7 @@ All__MAin__Section {
 }
 .logo img {
   width: 180px;
+  margin: 1em;
 }
 .select_service {
   width: 130px;
@@ -41,7 +44,7 @@ All__MAin__Section {
 
   align-items: center;
   width: 100%;
-  padding: 2em;
+  padding: 1em;
   padding-bottom: 1em;
   margin: 0 auto;
   max-width: 1440px;
@@ -458,8 +461,9 @@ All__MAin__Section {
 .menu_btn img {
   /* width: 20px; */
   /* margin-left: 3em; */
-  margin-top: 5.4em;
+  margin-top:6.2em;
   height: 25px;
+  margin-left: 2em;
 }
 .bestkids {
   width: 100%;
@@ -597,10 +601,10 @@ All__MAin__Section {
   max-width: 1440px;
   margin: 0 auto;
 }
-.thing__pic img{
+.thing__pic img {
   width: 300px;
 }
-.two__img__things{
+.two__img__things {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -618,6 +622,111 @@ All__MAin__Section {
   width: 100%;
   padding: 1em;
 }
+.footer {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #27282b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__left {
+  width: 30%;
+  margin-left: 2em;
+}
+.footer__mid {
+  width: 30%;
+}
+.footer__right {
+  width: 30%;
+}
+.footer__left__heading {
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 1em;
+}
+.footer__left__para {
+  font-size: 13px;
+  width: 75%;
+  text-transform: lowercase;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.Footer__img__link {
+  margin-top: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+.footer__left__sociallinks {
+  margin-bottom: 2em;
+}
+.footer__img__baner img {
+  /* margin-top: 1em; */
+  width: 310px;
+}
+.footer__mid__heading {
+  font-size: 22px;
+  margin-top: 1em;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+.footer__mid__img__and__para {
+  display: flex;
+}
+.footer__mid__post__img {
+  margin-right: 1em;
+}
+.footer__mid__para {
+  font-size: 13px;
+  width: 70%;
+}
+.footer__mid__post__img img {
+  width: 100px;
+}
+.footer__mid__img__and__para {
+  margin-top: 1em;
+}
+.span__writer {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.footer__right__info {
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 1em;
+  /* width: 80%; */
+  margin-bottom: 1em;
+}
+.footer__right__heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+.footer__right__input__button input {
+  font-size: 20px;
+  /* text-align: center; */
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.footer__right__input__button button {
+  padding: 10px 4em;
+  margin-top: 1em;
+  font-size: 20px;
+  background-color: #ff502d;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  color: white;
+}
+.footer__right__input__button button:hover{
+  background-color: white;
+  color: #ff502d;
+}
 
 @media (max-width: 1360px) {
   .nav__main {
@@ -629,7 +738,7 @@ All__MAin__Section {
   .menu_btn {
     display: flex;
   }
-  .two__img__things{
+  .two__img__things {
     flex-direction: column;
   }
 }
@@ -706,6 +815,31 @@ All__MAin__Section {
     width: 44%;
     margin: 1em;
   }
+  .footer{
+    flex-direction: column;
+  }
+  .footer__left{
+    width: 60%;
+  }
+  .footer__left__para {
+    width: 50%;
+  }
+  .footer__mid {
+    width: 60%;
+    margin-left: 2em;
+  }
+  .footer__mid__para {
+    width: 38%;
+  }
+  .footer__right {
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    width: 60%;
+  }
+  .footer__right__info {
+    width: 55%;
+  }
 }
 @media (max-width: 850px) {
   .header__heading {
@@ -752,6 +886,7 @@ All__MAin__Section {
   .card__Section__heading {
     margin-left: 1em;
   }
+  
 }
 @media (max-width: 750px) {
   .all__featured__card {
@@ -826,12 +961,22 @@ All__MAin__Section {
   .bestkids__button {
     top: 35%;
   }
-  .thing__All__pic{
+  .thing__All__pic {
     flex-direction: column;
   }
-  .things__span{
+  .things__span {
     display: none;
   }
+  .footer__mid {
+    width: 70%;
+  }
+  .footer__left {
+    width: 70%;
+  }
+  .footer__right{
+    width: 70%;
+  }
+  
 }
 @media (max-width: 550px) {
   .card__img img {
@@ -872,6 +1017,24 @@ All__MAin__Section {
   .doha__img img {
     margin-bottom: 2em;
   }
+  .footer__left__para {
+    width: 85%;
+  }
+  .footer__mid__para{
+    width: 70%;
+  }
+  .footer__mid__img__and__para{
+    margin-bottom: 2em;
+  }
+  .footer__mid__post__img img{
+    width: 119px;
+  }
+  .footer__right__info {
+    width: 80%;
+  }
+  .Footer__img__link {
+    margin-right: 2px;
+  }
 }
 @media (max-width: 450px) {
   .header__img img {
@@ -899,5 +1062,54 @@ All__MAin__Section {
   }
   .dohabook__link {
     margin-left: 2.3em;
+  }
+  .footer__left{
+    margin-left: 3em;
+  }
+  .footer__img__baner img{
+    width: 250px;
+  }
+  .Footer__img__link{
+    width: 30px;
+  }
+  .footer__mid {
+    width: 90%;
+  }
+  .footer__left {
+    width: 85%;
+  }
+  .footer__right{
+    width: 90%;
+  }
+  .footer__right__info {
+    font-size: 20px;
+  }
+  .footer{
+    align-items: flex-start;
+  }
+  .featured__img img {
+    width: 220px;
+    height: 390px;
+    
+}
+.placement__button {
+ margin-top: 5px;
+}
+}
+@media(max-width: 380px) {
+  .footer__mid {
+    width: 80%;
+  }
+  .footer__left {
+    width: 80%;
+  }
+  .footer__right{
+    width: 80%;
+  }
+  .navbar{
+    margin-left: 1em;
+  }
+  .menu_btn img{
+    height: 22px;
   }
 }
