@@ -205,6 +205,50 @@
       <a class="social__tags2" href="#">Youtube</a>
       <a class="social__tags3" href="#">Instagram</a>
     </div>
+    <div class="side_nav" id="side_nav">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Things to Do</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Directories</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Living in Doha</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Jobs in Doha</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Healthy Living</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Family Matters</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Contests</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Youtube</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="menu_btn" id="menu_btn" onclick="menuControl()">
+      <img class="menu" src="./image/menu.png" id="menu" />
+    </div>
+
   </section>
   <section class="header">
     <div class="header__img">
@@ -336,9 +380,9 @@
             </div>
             <button class="event__button__view">View All</button>
             <button class="event__button__submit">Submit</button>
-          
+
           </div>
-          
+
         </div>
       </div>
     </div>
@@ -402,6 +446,34 @@
     </div>
 
   </section>
+
+  <script>
+
+
+    var side_nav = document.getElementById("side_nav");
+    var side_nav_img = document.getElementById("menu");
+    side_nav.style.display = "none"
+    function menuControl() {
+      if (side_nav.style.display === "none") {
+        side_nav.style.display = "flex";
+        console.log("open");
+        side_nav_img.src = './image/close.png'
+      } else {
+        side_nav_img.src = './image/menu.png'
+        side_nav.style.display = "none";
+        console.log("close");
+      }
+    }
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 1000,
+      speedAsDuration: true
+    });
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 0)
+        side_nav.style.display = "none"
+    })
+  </script>
 </body>
 
 </html>
