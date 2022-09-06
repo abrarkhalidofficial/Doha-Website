@@ -573,6 +573,52 @@ All__MAin__Section {
   margin-top: 2em;
   margin-left: 0.5em;
 }
+.things__span___and__heading {
+  display: flex;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  align-items: center;
+}
+.things__heading {
+  font-size: 35px;
+  color: #32353c;
+  margin-left: 10px;
+}
+.thing__All__pic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.Things {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.thing__pic img{
+  width: 300px;
+}
+.two__img__things{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thing__con {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin: 1em;
+}
+.thing__pic__heading {
+  background-color: #ff502d;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+}
+
 @media (max-width: 1360px) {
   .nav__main {
     display: none;
@@ -583,7 +629,11 @@ All__MAin__Section {
   .menu_btn {
     display: flex;
   }
+  .two__img__things{
+    flex-direction: column;
+  }
 }
+
 @media (max-width: 1250px) {
   .header__heading {
     width: 25%;
@@ -775,6 +825,12 @@ All__MAin__Section {
   }
   .bestkids__button {
     top: 35%;
+  }
+  .thing__All__pic{
+    flex-direction: column;
+  }
+  .things__span{
+    display: none;
   }
 }
 @media (max-width: 550px) {
