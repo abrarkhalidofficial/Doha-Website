@@ -5,8 +5,6 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-
-  
 }
 .body {
   margin: 0px;
@@ -181,7 +179,6 @@
   display: flex;
   width: 98%;
   justify-content: space-between;
- 
 }
 .card__main {
   width: 24%;
@@ -357,7 +354,6 @@
 }
 .featured__img img {
   width: 120%;
-
 }
 .event__card {
   display: flex;
@@ -449,7 +445,7 @@
   display: none;
 }
 .menu_btn img {
-  margin-top:6.2em;
+  margin-top: 6.2em;
   height: 25px;
   margin-left: 2em;
 }
@@ -533,7 +529,6 @@
 .dohabook__link__imgs__all {
   display: flex;
 }
-
 .doha__img img {
   width: 45%;
   margin-left: 2em;
@@ -707,7 +702,7 @@
   transition: all 0.5s ease;
   color: white;
 }
-.footer__right__input__button button:hover{
+.footer__right__input__button button:hover {
   background-color: white;
   color: #ff502d;
 }
@@ -798,10 +793,10 @@
     width: 44%;
     margin: 1em;
   }
-  .footer{
+  .footer {
     flex-direction: column;
   }
-  .footer__left{
+  .footer__left {
     width: 60%;
   }
   .footer__left__para {
@@ -869,7 +864,6 @@
   .card__Section__heading {
     margin-left: 1em;
   }
-  
 }
 @media (max-width: 750px) {
   .all__featured__card {
@@ -955,10 +949,9 @@
   .footer__left {
     width: 70%;
   }
-  .footer__right{
+  .footer__right {
     width: 70%;
   }
-  
 }
 @media (max-width: 550px) {
   .card__img img {
@@ -1002,13 +995,13 @@
   .footer__left__para {
     width: 85%;
   }
-  .footer__mid__para{
+  .footer__mid__para {
     width: 70%;
   }
-  .footer__mid__img__and__para{
+  .footer__mid__img__and__para {
     margin-bottom: 2em;
   }
-  .footer__mid__post__img img{
+  .footer__mid__post__img img {
     width: 119px;
   }
   .footer__right__info {
@@ -1045,13 +1038,13 @@
   .dohabook__link {
     margin-left: 2.3em;
   }
-  .footer__left{
+  .footer__left {
     margin-left: 3em;
   }
-  .footer__img__baner img{
+  .footer__img__baner img {
     width: 250px;
   }
-  .Footer__img__link{
+  .Footer__img__link {
     width: 30px;
   }
   .footer__mid {
@@ -1060,38 +1053,37 @@
   .footer__left {
     width: 85%;
   }
-  .footer__right{
+  .footer__right {
     width: 90%;
   }
   .footer__right__info {
     font-size: 20px;
   }
-  .footer{
+  .footer {
     align-items: flex-start;
   }
   .featured__img img {
     width: 220px;
     height: 390px;
-    
+  }
+  .placement__button {
+    margin-top: 5px;
+  }
 }
-.placement__button {
- margin-top: 5px;
-}
-}
-@media(max-width: 380px) {
+@media (max-width: 380px) {
   .footer__mid {
     width: 80%;
   }
   .footer__left {
     width: 80%;
   }
-  .footer__right{
+  .footer__right {
     width: 80%;
   }
-  .navbar{
+  .navbar {
     margin-left: 1em;
   }
-  .menu_btn img{
+  .menu_btn img {
     height: 22px;
   }
 }
