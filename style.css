@@ -11,9 +11,6 @@
 .body {
   margin: 0px;
   padding: 0px;
-
-
-  /* font-family: "Poppins", sans-serif; */
 }
 .All__MAin__Section {
   overflow-x: hidden;
@@ -61,9 +58,7 @@
 .navbar__social__media {
   margin-left: 1em;
 }
-.nav__main {
-  /* margin-left: 2em; */
-}
+
 .navbar__social__media a {
   font-size: 12px;
   text-decoration: none;
