@@ -181,7 +181,7 @@
   display: flex;
   width: 98%;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
+ 
 }
 .card__main {
   width: 24%;
